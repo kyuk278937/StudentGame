@@ -1,0 +1,112 @@
+body{
+    font-family: Pixelify Sans;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1; /* Allow nav to take up available space */
+}
+
+nav ul li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Pixelify Sans;
+    margin-left: 100px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    min-width: 160px;
+    z-index: 1;
+    margin-left: 100px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Allow search container to take up available space */
+    justify-content: center; /* Center the search container */
+    margin-left: 20px; /* Add margin between logo and search */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Full width for centering */
+    max-width: 600px; /* Max width for the search bar */
+}
+
+.search input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%; /* Full width for the input */
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    height: 40px; /* Set height */
+}
+
+.search button {
+    background: none;
+    border: 1px solid #ccc;
+    border-left: none;
+    cursor: pointer;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+    height: 40px; /* Set height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search button img {
+    height: 20px; /* Adjust icon size */
+}
