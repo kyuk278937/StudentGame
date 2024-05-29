@@ -120,3 +120,97 @@ nav ul li {
 .search button img {
     height: 20px; /* Adjust icon size */
 }
+
+.work_space{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    height: 100%;
+}
+
+.games_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 960px;
+}
+
+.game_info{
+    border: 3px solid #ccc;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 285px;
+    height: 285px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.game_info h3{
+    margin-left: 15px;
+    max-height: 22px;
+    max-width: 255px;
+}
+
+.game_info p{
+    margin-left: 15px;
+    max-width: 255px;
+    max-height: 38px;
+}
+
+.logo_div{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.logo_div img{
+    width: 265px;
+    height: 165px;;
+}
+
+.game_info_page{
+    border: 3px solid #ccc;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 960px;
+    height: 100%;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.game_img_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.game_img_div img{
+    width: 800px;
+}
+
+.info{
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.buttons{
+    margin-left: 60px;
+    margin-bottom: 25px;
+}
+
+.buttons a{
+    border: 3px solid #ccc;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.buttons a:hover{
+    background-color: #ccc;
+}

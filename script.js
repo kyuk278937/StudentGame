@@ -1,10 +1,10 @@
-const groups = ["Group 1", "Group 2", "Group 3", "Group 4"];
+const Groups = ["Всі", "10-А", "10-Б"];
 
-const dropdown = document.getElementById("groups-dropdown");
+const Dropdown = document.getElementById("groups-dropdown");
     
-groups.forEach(group => {
+Groups.forEach(Group => {
     const anchor = document.createElement("a");
-    anchor.textContent = group;
+    anchor.textContent = Group;
     anchor.href = "#";
-    dropdown.appendChild(anchor);
+    Dropdown.appendChild(anchor);
 });
